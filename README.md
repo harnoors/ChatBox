@@ -1,17 +1,17 @@
 # Chat-App
-#Summary:-
-(1) Implemented a chat application using Socket programming in C to communicate between two local machine terminals.
-(2) Developed using a UDP-based (IPv4) connection to achieve one-to-one Communication protocol.
-(3) Pthreads handles different processes simultaneously.
-(4)Major focus on memory management, used two single lists to store all the messages in one’s mailbox.
+## Summary:
+       (1) Implemented a chat application using Socket programming in C to communicate between two local machine terminals.
+       (2) Developed using a UDP-based (IPv4) connection to achieve one-to-one Communication protocol.
+       (3) Pthreads handles different processes simultaneously.
+       (4)Major focus on memory management, used two single lists to store all the messages in one’s mailbox.
 
-#Requirements:  
+## Requirements:  
 
        (1) Linux or Mac terminal
        (2) Port Number of Both the local and remote machine (Could be decided by users)
        (3) Machine Name of both local and remote.
 
-##Running the Chat-App:
+## Running the Chat-App:
 
        (1) Run the make file in the terminal. 
               Commands -
@@ -21,7 +21,7 @@
        (3) To terminate the chat just Enter '!'.
        (4) Termination message will be sent to Remote Person.
 
-##Working:
+## Working:
 
        (1) Pthreads has been used to communicate.
        (2) List C data structure used. 
@@ -32,7 +32,7 @@
            (d) Forth Thread used to take out remote person message from list and print on my screen.
        (4) Socket establishing and binding used.
 
-##Data Structures:
+## Data Structures:
 
        List Data Structure for storing Messages.
        (1) Two arrays one for List headers and one for Nodes.
