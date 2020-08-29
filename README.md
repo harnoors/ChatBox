@@ -23,14 +23,14 @@
 
 ## Working:
 
-(1) Pthreads has been used to communicate.
-(2) List C data structure used. 
-(3) 4 threads designed.
-    (a) First Thread used to store our message into list.
-    (b) Second Thread used to take out our message and send to remote person.
-    (c) Third Thread used to store message of remote person into another list.
-    (d) Forth Thread used to take out remote person message from list and print on my screen.
-(4) Socket establishing and binding used.
+       (1) Pthreads has been used to communicate.
+       (2) List C data structure used. 
+       (3) 4 threads designed.
+           (a) First Thread used to store our message into list.
+           (b) Second Thread used to take out our message and send to remote person.
+           (c) Third Thread used to store message of remote person into another list.
+           (d) Forth Thread used to take out remote person message from list and print on my screen.
+       (4) Socket establishing and binding used.
 
 ## Data Structures:
 
